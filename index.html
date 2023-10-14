@@ -16,10 +16,10 @@
                 <header>
                     <nav>
                         <ul>
-                            <li class="list "> <button> Products <i class="bi bi-chevron-down"></i></button></li>
-                            <li class="list "> <button> Solutions <i class="bi bi-chevron-down"></i></button></li>
-                            <li class="list active"> <button> Resources <i class="bi bi-chevron-up"></i></button></li>
-                            <li class="list"> <button> Pricing <i class="bi bi-chevron-down"></i></button></li>
+                            <li class="list" onclick="clicked(0)"> <button> Products <i class="bi bi-chevron-down"></i></button></li>
+                            <li class="list" onclick="clicked(1)"> <button> Solutions <i class="bi bi-chevron-down"></i></button></li>
+                            <li class="list" onclick="clicked(2)"> <button> Resources <i class="bi bi-chevron-up"></i></button></li>
+                            <li class="list" onclick="clicked(3)"> <button> Pricing <i class="bi bi-chevron-down"></i></button></li>
                         </ul>
                     </nav>
                 </header>
@@ -31,22 +31,22 @@
                         <p>LEARN</p>
                     </div>
                     <div class="extend-body">
-                        <button class="contents bg-1">
+                        <button class="contents bg-1" onmouseenter="focused(0)">
                             <div class="icon bg-1"><i class="bi bi-book"></i></div>
                             <div class="head">Help Center</div>
                             <div class="context">Learn how to signup, install and use our product.</div>
                         </button>
-                        <button class="contents">
+                        <button class="contents" onmouseenter="focused(1)">
                             <div class="icon bg-2"><i class="bi bi-headphones"></i></div>
                             <div class="head">Help Center</div>
                             <div class="context">Learn how to signup, install and use our product.</div>
                         </button>
-                        <button class="contents">
+                        <button class="contents" onmouseenter="focused(2)">
                             <div class="icon bg-3"><i class="bi bi-people"></i></div>
                             <div class="head">Help Center</div>
                             <div class="context">Learn, share and connect with other users</div>
                         </button>
-                        <button class="contents">
+                        <button class="contents" onmouseenter="focused(3)">
                             <div class="icon bg-4"><i class="bi bi-chat-left"></i></div>
                             <div class="head">Help Center</div>
                             <div class="context">Learn, share and connect with other users</div>
