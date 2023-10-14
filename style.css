@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Noto San';
+    src: url('assets/fonts/NotoSansNKoUnjoined-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto San';
+}
+
+:root{
+    --Color-1: #E9FEED;
+}
+
+body{
+    width: 100vw;
+}
+
+ul .list{
+    list-style: none;
+    padding: 8px;
+    width: 90%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.active {
+    background-color: #fff;
+    box-shadow: 0 4px 8px #e3e3e3;
+}
+
+.nav-container {
+    width: 64%;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 64px 0;
+    justify-content: center;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F4F5FC;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+button {
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+.nav-expanded {
+    width: 50%;
+    height: fit-content;
+    position: relative;
+    right: 16%;
+    border-radius: 20px;
+    background-color: white;
+    margin: 16px 0;
+}
+
+.expanded {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.exdand-head {
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 0 0;
+}
+
+p{
+    font-weight: lighter;
+    color: lightslategray;
+}
+
+.extend-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8px 0 32px;
+}
+
+.icon {
+    display: flex;
+    font-size: 24px;
+    border-radius: 32px;
+    margin: 16px;
+    background-color: var(--Color-1);
+    padding: 16px;
+    width: 32px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-1{
+    --color: #FFF0F0;
+    background-color: var(--color)!important;
+}
+
+.bg-2{
+    --color: #E9FEED;
+    background-color: var(--color)!important;
+}
+
+.bg-3{
+    --color: #F0F3FF;
+    background-color: var(--color)!important;
+}
+
+.bg-4{
+    --color: #FFF4E6 ;
+    background-color: var(--color)!important;
+}
+
+button.contents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 0 24px 0;
+    border-radius: 20px;
+    align-items: center;
+    width: 45%;
+    justify-content: center;
+    margin: 16px 8px;
+}
+
+.context {
+    width: 24ch;
+    text-align: center;
+}
+
+.head {
+    font-size: 16px;
+    font-weight: bold;
+}
